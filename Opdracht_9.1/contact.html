@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> About me </title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+
+        <nav>
+            <div class="nav-bar">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="Recipes.html">Recipes</a></li>
+                    <li><a href="My Story.html">My Story</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+
+    <div id="main-banner">
+        <img src="img/banner.png" alt="foodie">
+    </div>
+
+    <div class="container">
+        <h2>Contact </h2>
+
+        <form name="contact" action="POST" data-netlify="true">
+
+            <input type="text" id="name" name="name" placeholder="Name"><br>
+            <input type="email" id="email" name="email" placeholder="Email"><br>
+            <input type="tel" id="phone number" name="phone number" placeholder="Phone Number"><br>
+            <input type="text" id="age" name="age" placeholder="Age"><br>
+            <input type="date" id="" name="date of birth" placeholder="Birthday"><br>
+
+            <p>Please select your gender:</p>
+            <input type="radio" id="male" name="gender" value="Male">
+            <label for="Male">Male</label><br>
+            <input type="radio" id="Female" name="gender" value="Female">
+            <label for="Female">Female</label><br>
+            <input type="radio" id="Other" name="gender" value="Other">
+            <label for="Other">Other</label>
+
+
+            <p>Please select your favorite cuisine:</p>
+            <input type="checkbox" id="cuisine 1" name="cuisine 1" value="French">
+            <label for="cuisine 1"> French</label><br>
+            <input type="checkbox" id="cuisine 2" name="cuisine 2" value="Italian">
+            <label for="cuisine 2"> Italian</label><br>
+            <input type="checkbox" id="cuisine 3" name="cuisine 3" value="Spanish">
+            <label for="cuisine 3"> Spanish</label><br>
+            <input type="checkbox" id="cuisine 4" name="cuisine 4" value="Arabic">
+            <label for="cuisine 4"> Arabic</label><br><br>
+
+            <label for="favcolor">Select your favorite color:</label>
+            <input type="color" id="favcolor" name="favcolor" value="#ff0000">
+
+            <p>Bio</p>
+            <textarea id="message" name="message" placeholder="Message" rows="7"> </textarea>
+
+            <p>Upload your latest recipe</p>
+            <input type="file" id="myfile" name="myfile" placeholder="Upload File"> <br><br>
+
+            <label for="homepage">Add your homepage:</label>
+            <input type="url" id="homepage" name="homepage"><br><br>
+
+            <input type="submit" value="Submit">
+            <input type="reset" value="Reset">
+
+
+        </form>
+
+    </div>
+</body>
+
+</html>
